@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="forms.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <h2>Любимый жанр музыки</h2>
+      <a href="forms.html" class="moveBack">
+        Вернуться назад
+    </a>
+</header><br>
+    <form class="formOne">
+<input type="text" placeholder="Введите жанр музыки"><br>
+<input type="button" value="Подтвердить"><br> или выберете его из списка 
+
+<select>
+    <option>Поп</option>
+    <option>Рок</option>
+    <option>Джаз</option>
+    <option>Шансон</option>
+    <option>Металл</option>
+    <option>Драм&Бэйс</option>
+    <option>Электро</option>
+</select><br>
+    <label>Пол</label>
+        <label><input type="radio" name="gender">Женский</label> 
+            <label><input type="radio" name="gender">Мужской</label>
+
+        <input type="number" placeholder="Введите № трека"><br>
+         <input type="email" placeholder="Введите Еmail"><br>
+          <input type="password" placeholder="Введите пароль"><br>
+            <input type="tel" placeholder="Введите № телефона"><br>
+              <input type="reset"><br>
+    <label>
+        <input type="checkbox"> Я принимаю условия.
+    </label<br>
+        <button type="button">Вход</button>
+    </form>
+      <script src="forms.js"></script>
+</body>
+</html>
